@@ -13,3 +13,4 @@ CMD java -jar ./target/java-fullstack-1.0-SNAPSHOT.jar
 #checking pre-receive hoo
 
 #test4k
+#commit message test
