@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage ('compile stage') {
+            steps {
+            
+            compile.sh
+                       
+            }
+        }
+      
+    
+    stage ('testing stage') {
+        steps {
+        test.sh
+        }
+       }
+    }   
+ }
+ 
