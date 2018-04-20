@@ -17,6 +17,11 @@ pipeline {
         
         }
        }
+    stage ('package stage') {
+        steps {
+        echo "packaging binary file..."
+        }
+      }
     }   
  }
  
