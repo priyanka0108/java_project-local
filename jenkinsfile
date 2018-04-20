@@ -5,16 +5,16 @@ pipeline {
         stage ('compile stage') {
             steps {
             
-            echo "compiling task..."
-            cat compile.sh           
+            echo "compiling task running and binary creating..."
+                  
             }
         }
       
     
     stage ('testing stage') {
         steps {
-        echo "testing task ..."
-        cat test.sh
+        echo "testing task, UNit/functional testing running ..."
+        
         }
        }
     }   
